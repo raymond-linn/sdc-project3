@@ -142,6 +142,4 @@
 	- https://carnd-forums.udacity.com/cq/viewquestion.action?id=26214464&questionTitle=behavioral-cloning-cheatsheet
 	- https://chatbotslife.com/using-augmentation-to-mimic-human-driving-496b569760a9#.ulbf1oge4
 	- https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
->>>>>>> 69cd886b1e19cc9033dcc78b16a3551d039c139c
-
 
