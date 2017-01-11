@@ -1,6 +1,5 @@
 # SDC Behavior Cloning Project
 
-<<<<<<< HEAD
 1. **Requirements**
 	* collecting the data of own driving behavior from provided simulator tools or using Udacity collected data
 	* using the data to train Neural Network model in python 
