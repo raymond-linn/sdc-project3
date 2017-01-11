@@ -1,23 +1,21 @@
-SDC Behavior Cloning Project
-============================
+# SDC Behavior Cloning Project
 
-1. Requirements
+## 1. Requirements 	
 	(i) 	collecting the data of own driving behavior from provided simulator tools or using Udacity collected data
 	(ii)	using the data to train Neural Network model in python 
 	(iii) 	file naming requirements: 
-				- main file: model.python
-				- script to drive the car: drive.py
-				- model architecture: model.json
-				- weights: model.h5
-				- design and structure of the network: README.md (this file)
-
+			- main file: model.python
+			- script to drive the car: drive.py
+			- model architecture: model.json
+			- weights: model.h5
+			- design and structure of the network: README.md (this file)
 	(iv)	track to be evaluated on: the first track (the one to the left from the simulator options)
-	(v)		simulation: 
-				- no tire may leave the drivable portion of the track suface.
-				- the car may not pop uo onto ledges or roll over any surfaces that would otherwise be consdered unsafe
+	(v)	simulation: 
+			- no tire may leave the drivable portion of the track suface.
+			- the car may not pop uo onto ledges or roll over any surfaces that would otherwise be consdered unsafe
 
 
-2. Data Observation 
+## 2. Data Observation 
 	I was using notebook to observe the training data. The file "sdc_bc_data_discovering.ipynb" is attached in the project
 	submission zip file.
 	(i) 	I first tried to view the 10 random images from Udacity data to visually identify what could be done. Found out that we have extra non useful part of the scene in those images. (top and bottom part of the images and decided to start to crop out 50 pixels from the top and 25 pixels from the bottom)
@@ -34,38 +32,38 @@ SDC Behavior Cloning Project
 	- change brightness
 	- add shadow
 
-3. Design Model
-	(i)		Preprocessing Data
-				- cropping images (50px from top, 25px from bottom)
-				- resizing images (66px x 200px)
-				- flipping images (all)
-				- altering brightness randomly
-				- adding shadow randomly 
+## 3. Design Model
+	(i)	Preprocessing Data
+			- cropping images (50px from top, 25px from bottom)
+			- resizing images (66px x 200px)
+			- flipping images (all)
+			- altering brightness randomly
+			- adding shadow randomly 
 
 	(ii) 	Using keras generator
-				- batch size 128
-				- 10 epochs
+			- batch size 128
+			- 10 epochs
 
 
 	(iii)	Using NVIDIA model with transfer learning
-				- 
-				-
+			- 
+			-
 
-4. Model Architecture
+## 4. Model Architecture
 	# draw the network structure
 	# explain the model achitecture in words
 
 
-5. Training approach and process
+## 5. Training approach and process
 
 
-6. Performance (links to the youtube)
+## 6. Performance (links to the youtube)
 
 
-7. What to improve
+## 7. What to improve
 
 
-9. References
+## 9. References
 	- Udacity Term 1
 	- Udacity Project 3 rubric
 	- https://arxiv.org/pdf/1604.07316v1.pdf
