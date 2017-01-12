@@ -32,6 +32,7 @@
 		* resize
 		* change brightness
 		* add shadow
+https://cloud.githubusercontent.com/assets/24833943/21903912/6ccbcbc0-d8b6-11e6-86a7-b7fb1117d462.png
 
 3. **Design Model**
 	* Preprocessing Data
