@@ -55,8 +55,6 @@
 	
 
 4. **Model Architecture**
-	> draw the network structure
-	> explain the model achitecture in words
 	* -- update -- NVIDIA paper is the one that I first go to. I implemented the same layers as NVIDIA I cannot 
 	* I implemented the network resemblence to the post mentioned above with changing some parameters. Input shape being (64x64x3)
 	* 2-CNN layers with (32, 3, 3) followed by (2x2) Max Pooling and Dropout of 0.5. I used the Activation function as Leaky ReLU after these CNN layers. Output shape after these layers is: 32, 32, 32 and parameters total being: 10,144
