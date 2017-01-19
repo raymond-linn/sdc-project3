@@ -31,7 +31,7 @@
 		* resize
 		* change brightness
 
-![picture alt]
+
 
 3. **Design Model**
 	* Loading Data
