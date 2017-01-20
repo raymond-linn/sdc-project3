@@ -95,8 +95,8 @@
 	* these are the some of the first thoughts that come into my mind. I need to learn more about Deep Learning and use all the data that are available in the driving_log file to get small network that can be drive autonoumously and smmothly.
 	
 8. **References**
-	* Udacity class
-	* Udacity Project 3 rubric
+	* Udacity class [https://classroom.udacity.com/nanodegrees/nd013/parts/fbf77062-5703-404e-b60c-95b78b2f3f9e/modules/6df7ae49-c61c-4bb2-a23e-6527e69209ec/lessons/46a70500-493e-4057-a78e-b3075933709d/concepts/0b36b5de-49bd-435b-99cf-9c657838ff49]
+	* Udacity Project 3 rubric [https://review.udacity.com/#!/rubrics/432/view]
 	* VGG16 Architecture - Keras blog [https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html]
 	* NVDIA Paper [https://arxiv.org/pdf/1604.07316v1.pdf]()
 	* Comma.ai [https://github.com/commaai/research/blob/master/train_steering_model.py]()
