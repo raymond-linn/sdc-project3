@@ -20,8 +20,11 @@
 
 
 	I was using notebook to observe the training data. The file "sdc_bc_data_gen.ipynb" is attached in the project submission zip file.
-	* I first tried to view the 12 random images from Udacity data to visually identify what could be done. Found out that we have extra non useful part of the scene in those images. (top and bottom part of the images and decided to start to crop out 50 pixels from the top and 25 pixels from the bottom)-- updat -- ended up cropping 40px and 25px from the top and bottom respectively.
+	* I first tried to view the 12 random images from Udacity data to visually identify what could be done. Found out that we have extra non useful part of the scene in those images. (top and bottom part of the images and decided to start to crop out 50 pixels from the top and 25 pixels from the bottom)-- update -- ended up cropping 40px and 25px from the top and bottom respectively.
+	
+![alt tag] (https://github.com/raymond-linn/sdc-project3/blob/master/images/12_random_images.png)
 	* And I used the DataFrame from pandas to summarize the data to see how data look like. And plot out the distribution of steering angle. Noted more than 6000 images angles are on negative values and the rest are in postivie values. Seems like the track might have unenven turns. And learned from the Traffic Sign text project (hard lesson) I am sure that the data need to be augmented in a way that it does not bias to certain curves only.
+![alt tag] (https://github.com/raymond-linn/sdc-project3/blob/master/images/steering_distribution.png)
 	* One of the hints from Udacity for this project is how do we recover from driving too much right and left to the center (recoveries), I think I might be able to use left and right images to simulate recoveries. So for simple approach that I would take it is that adding or substracting a factor to the steering unit that associates to either left or right image. Fot center image, it will be as is.
 	* Provided by Udacity, I had a chance to go through NVDIA paper (refernced at the end of this README) and from <a href="https://chatbotslife.com/using-augmentation-to-mimic-human-driving-496b569760a9#.ulbf1oge4">this post</a>, I should add some random brightness to the images to augment the trining data.
 	* Since more left turns than right turns in the Data, I decide to flip half of the images horizontally to simulate some right turns to distribute the data some what left and right turns are closer.	
