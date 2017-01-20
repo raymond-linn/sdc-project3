@@ -25,18 +25,23 @@
 ![alt tag] (https://github.com/raymond-linn/sdc-project3/blob/master/images/12_random_images.png)
 
 Before Cropped
-![alt tag] (https://github.com/raymond-linn/sdc-project3/blob/master/images/before_crooped.png)
+<br />
+<img src="https://github.com/raymond-linn/sdc-project3/blob/master/images/before_crooped.png" alt="before cropped" width="240" height="180" border="10" />
 
 After Cropped
-![alt tag] (https://github.com/raymond-linn/sdc-project3/blob/master/images/after_cropped.png)
+<br />
+<img src="https://github.com/raymond-linn/sdc-project3/blob/master/images/after_cropped.png" alt="after cropped" width="240" height="180" border="10" />
+<br />
 	* And I used the DataFrame from pandas to summarize the data to see how data look like. And plot out the distribution of steering angle. Noted more than 6000 images angles are on negative values and the rest are in postivie values. Seems like the track might have unenven turns. And learned from the Traffic Sign text project (hard lesson) I am sure that the data need to be augmented in a way that it does not bias to certain curves only.
 	
 ![alt tag] (https://github.com/raymond-linn/sdc-project3/blob/master/images/steering_distribution.png)
+<br />
 	* One of the hints from Udacity for this project is how do we recover from driving too much right and left to the center (recoveries), I think I might be able to use left and right images to simulate recoveries. So for simple approach that I would take it is that adding or substracting a factor to the steering unit that associates to either left or right image. Fot center image, it will be as is.
 	* Provided by Udacity, I had a chance to go through NVDIA paper (refernced at the end of this README) and from <a href="https://chatbotslife.com/using-augmentation-to-mimic-human-driving-496b569760a9#.ulbf1oge4">this post</a>, I should add some random brightness to the images to augment the trining data.
 	
 Random Brightness
 ![alt tag] (https://github.com/raymond-linn/sdc-project3/blob/master/images/brightness_adjusted.png)
+<br />
 	* Since more left turns than right turns in the Data, I decide to flip half of the images horizontally to simulate some right turns to distribute the data some what left and right turns are closer.	
 	* So to recap from this, I will preprocess the data (add, augment) as follows:
 		* crop
@@ -44,9 +49,13 @@ Random Brightness
 		* resize
 		* change brightness
 
+<br/>
 Resize and Flip
-![alt tag] <img src="https://github.com/raymond-linn/sdc-project3/blob/master/images/resized.png" alt="Video Capture" width="240" height="180" border="10" />
-![alt tag] (https://github.com/raymond-linn/sdc-project3/blob/master/images/flipped.png)
+<br/>
+
+<img src="https://github.com/raymond-linn/sdc-project3/blob/master/images/resized.png" alt="resized" width="240" height="180" border="10" />
+<br/>
+<img src="https://github.com/raymond-linn/sdc-project3/blob/master/images/flipped.png" alt="flipped" width="240" height="180" border="10" />
 
 3. **Design Model**
 	* Loading Data
@@ -99,8 +108,9 @@ Resize and Flip
 	
 6. **Performance** (links to the youtube)
 	* Here is the capture of my model running. It is a little shaky. I know I need to improve a lot.
-<a href="https://youtu.be/KmackJ27iTs " target="_blank"><img src="https://github.com/raymond-linn/sdc-project3/blob/master/images/sdc_bc_captured_youtube.jpg" alt="Video Capture" width="480" height="360" border="10" /></a>
-
+	<br />
+<a href="https://youtu.be/KmackJ27iTs " target="_blank"><img src="https://github.com/raymond-linn/sdc-project3/blob/master/images/sdc_bc_captured_youtube.jpg" alt="Video Capture" width="240" height="180" border="10" /></a>
+<br />
 
 7. **What to improve**
 	* I saw some posts on slack and some blog sites that say, people can get it working by small network, small amount of layers and parameters. I am really curious to design and test.
