@@ -97,8 +97,9 @@
 8. **References**
 	* Udacity class
 	* Udacity Project 3 rubric
-	* [https://arxiv.org/pdf/1604.07316v1.pdf]()
-	* [https://github.com/commaai/research/blob/master/train_steering_model.py]()
-	* [https://carnd-forums.udacity.com/cq/viewquestion.action?id=26214464&questionTitle=behavioral-cloning-cheatsheet]()
-	* [https://chatbotslife.com/using-augmentation-to-mimic-human-driving-496b569760a9#.ulbf1oge4]()
-	* [https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html]()
+	* VGG16 Architecture - Keras blog [https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html]
+	* NVDIA Paper [https://arxiv.org/pdf/1604.07316v1.pdf]()
+	* Comma.ai [https://github.com/commaai/research/blob/master/train_steering_model.py]()
+	* Carnd Forum Cheatsheet [https://carnd-forums.udacity.com/cq/viewquestion.action?id=26214464&questionTitle=behavioral-cloning-cheatsheet]()
+	* Vivek's Post [https://chatbotslife.com/using-augmentation-to-mimic-human-driving-496b569760a9#.ulbf1oge4]()
+	* Using Very Little Data - Keras blog [https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html]()
