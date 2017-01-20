@@ -43,8 +43,9 @@ Random Brightness
 		* flip
 		* resize
 		* change brightness
+
 Resize and Flip
-![alt tag] (https://github.com/raymond-linn/sdc-project3/blob/master/images/resized.png)
+![alt tag] <img src="https://github.com/raymond-linn/sdc-project3/blob/master/images/resized.png" alt="Video Capture" width="240" height="180" border="10" />
 ![alt tag] (https://github.com/raymond-linn/sdc-project3/blob/master/images/flipped.png)
 
 3. **Design Model**
