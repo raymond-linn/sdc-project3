@@ -82,6 +82,13 @@
 	* I normalize the input images and still only get passed the right curves of track after the bridge and It is already 5 days before the deadlines. And I am really in stress. I looked through the Comma.ai code again and I found out it is using Lambda function from keras mdoel. I read the documentation of that function and decided to normalize the input using keras Lambda plus my mentor confirmed that it will be better to use keras Lambda.
 	* After I changed that my model started alive. With some out put layers size adjustment, I have totally model.
 	* I remember one of the lecture videos from this calss talk about Neural Network is more like Science than Engineering because like Science, we have to experiment it. And this is what it meant by experimenting to get the network working.
+	
+Epoch 1/3
+20000/20000 [==============================] - 659s - loss: 0.0442 - acc: 0.1776 - val_loss: 4.7080e-08 - val_acc: 1.0000
+Epoch 2/3
+20000/20000 [==============================] - 662s - loss: 0.0344 - acc: 0.1753 - val_loss: 2.3430e-05 - val_acc: 1.0000
+Epoch 3/3
+20000/20000 [==============================] - 628s - loss: 0.0325 - acc: 0.1797 - val_loss: 5.3634e-05 - val_acc: 1.0000
 
 6. **Performance** (links to the youtube)
 	* Here is the capture of my model running. It is a little shaky. I know I need to improve a lot.
