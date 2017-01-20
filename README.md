@@ -106,7 +106,7 @@ Resize and Flip
 	* After I changed that my model started to work well. With some out put layers size adjustment, I have a model that works.
 	* I remember one of the lecture videos from this calss talk about Neural Network is more like Science than Engineering because like Science, we have to experiment it. And this is what it meant by experimenting to get the network working.
 	
-6. **Performance** (links to the youtube)
+6. **Performance** 
 	* Here is the capture of my model running. It is a little shaky. I know I need to improve a lot.
 	<br />
 <a href="https://youtu.be/KmackJ27iTs " target="_blank"><img src="https://github.com/raymond-linn/sdc-project3/blob/master/images/sdc_bc_captured_youtube.jpg" alt="Video Capture" width="240" height="180" border="10" /></a>
